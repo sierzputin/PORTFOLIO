@@ -22,6 +22,7 @@ video {
     max-width: 100%;
 }
 
+/*Main container*/
 .container {
     max-width: 800px;
     padding: 10px 40px 10px 40px;
@@ -55,6 +56,7 @@ footer {
     vertical-align: top;
 }
 
+/*Adding some style to logo picture - font entypo*/
 .logo {
     color: black;
    -webkit-text-fill-color: white;
@@ -82,18 +84,19 @@ footer {
     margin-bottom: 40px;
 }
 
+/*git picture from font zocial*/
 .git {
     font-size: 2rem;
 }
 
+/* some style for images in modals */
 .modal-img {
     margin: 0 auto;
     margin-bottom: 10px;
-    /*max-width: 500px;*/
     border: solid 1px;
 }
 
-.hr2 {
+.footer-hr {
     border-color: #8c8c8c;
     border-width: 1px;
     margin: 10px;
