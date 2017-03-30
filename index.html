@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <meta content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,6 +10,7 @@
     <script src="js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300&amp;subset=latin-ext" rel="stylesheet">
   </head>
+
   <body>
     <!--Main Container for bootstrap framework-->
     <div class="container">
@@ -17,48 +18,64 @@
         <div class="col-lg-3 text-left logo">
           <span class="entypo-paper-plane"></span>
         </div>
+
         <div class="col-lg-9">
           <h1 class="display-1">NATALIA SIERZPUTOWSKA</h1>
           <h4>FRONT-END DEV</h4>
         </div>
       </header>
+
       <!--Section for baner picture-->
-      <section class="row">
-        <hr>
+      <div class="row">
         <div class="col-lg-12 col-md-12">
-          <img alt="" class="img-responsive center-block baner-img" src="img/baner.jpg" srcset="img/baner-sm.jpg 600w, img\baner.jpg 1140w">
+          <hr>
         </div>
-      </section>
+
+        <div class="col-lg-12 col-md-12">
+          <img alt="" class="img-responsive center-block baner-img" src="img/baner.jpg" srcset="img/baner-sm.jpg 600w, img/baner.jpg 1140w" sizes="(max-width: 400px) 100vw, (min-width: 401px) 100vw">
+        </div>
+      </div>
+
       <!--Title section for-->
       <section class="row">
         <div class="col-lg-12 col-md-12">
           <h2>Featured Work</h2>
         </div>
       </section>
+
       <!--Main section for articles-->
-      <section class="row articles text-center">
+      <main class="row articles text-center">
         <article class="col-lg-4 col-md-4 col-sm-6">
           <img class="img-responsive center-block article-img" src="img/project01.jpg" alt="Picture of first project" data-toggle="modal" data-target="#project1">
           <h4>FIRST PROJECT</h4>
           <a href="https://github.com/sierzputin/PORTFOLIO"><span class="fontawesome-github git"></span> Projects repo</a>
         </article>
+
         <article class="col-lg-4 col-md-4 col-sm-6">
           <img class="img-responsive center-block article-img" src="img/project02.jpg" alt="Picture of second project" data-toggle="modal" data-target="#project2">
           <h4>SECOND PROJECT</h4>
           <a href="#"><span class="fontawesome-github git"></span> Projects repo</a>
         </article>
+
         <article class="col-lg-4 col-md-4 col-sm-12">
           <img class="img-responsive center-block article-img" src="img/project03.jpg" alt="Picture of third project" data-toggle="modal" data-target="#project3">
           <h4>THIRD PROJECT</h4>
           <a href="#"><span class="fontawesome-github git"></span> Projects repo</a>
         </article>
-      </section>
+      </main>
+
       <!--footer-->
       <footer class="row">
-        <hr class="footer-hr">
-        <p class="footer-p">Created by Natalia Sierzputowska</p>
+        <div class="col-lg-12 col-md-12">
+          <hr class="footer-hr">
+        </div>
+
+        <div class="col-lg-12 col-md-12">
+          <p class="footer-p">Created by Natalia Sierzputowska</p>
+        </div>
       </footer>
     </div>
+
     <!--Modals for showing additional information-->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
       <div class="modal-dialog">
@@ -66,42 +83,50 @@
           <div class="modal-header">
             <h4 class="modal-title" id="myModalLabel1">FIRST PROJECT</h4>
           </div>
+
           <div class="modal-body text-center">
-            <img class="img-responsive modal-img" alt="Screenshott of project 1" src="img\project01.jpg">
+            <img class="img-responsive modal-img" alt="Screenshott of project 1" src="img/project01.jpg">
             <p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
           </div>
+
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
+
     <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title" id="myModalLabel2">SECOND PROJECT</h4>
           </div>
+
           <div class="modal-body text-center">
-            <img class="img-responsive modal-img" alt="Screenshott of project 2" src="img\project02.jpg">
+            <img class="img-responsive modal-img" alt="Screenshott of project 2" src="img/project02.jpg">
             <p>This will be my second project in this class. I will learn a lot</p>
           </div>
+
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
+
     <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title" id="myModalLabel3">THIRD PROJECT</h4>
           </div>
+
           <div class="modal-body text-center">
-            <img class="img-responsive modal-img" alt="Screenshott of project 3" src="img\project03.jpg">
+            <img class="img-responsive modal-img" alt="Screenshott of project 3" src="img/project03.jpg">
             <p>Unknown awaits</p>
           </div>
+
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
